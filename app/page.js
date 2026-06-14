@@ -47,8 +47,8 @@ export default function Page() {
           <div className="grid md:grid-cols-3 gap-8">
             {[1, 2, 3].map((item) => (
               <div key={item} className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition">
-                <div className="bg-gray-300 h-64 flex items-center justify-center">
-                  <span className="text-gray-500">Œuvre {item}</span>
+                <div className="bg-gray-300 rounded-lg h-96 flex items-center justify-center overflow-hidden">
+                <img src="/profil/tina.jpg" alt="Photo de profil" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-4">
                   <h3 className="text-xl font-bold mb-2">Titre de l'œuvre</h3>
